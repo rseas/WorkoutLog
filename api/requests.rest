@@ -1,0 +1,16 @@
+GET http://localhost:3001/exercises
+
+###
+
+POST http://localhost:3001/exercise/new
+Content-Type: application/json
+
+{
+    "name" : "Pec Deck",
+    "sets" : "1 warmup, 3 working",
+    "reps" : "8 to failure",
+    "notes" : "Slight Shoulder pain, top set 190lbs"
+}
+
+###
+DELETE http://localhost:3001/exercise/delete/649b50af86e817cb6f4e727c
