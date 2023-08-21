@@ -18,12 +18,9 @@ const Exercise = require('./models/Exercise');
 const Workout = require('./models/Workout');
 
 app.get('/exercises', async (req, res) => {
-    try{
-        const exercises = await Exercise.find();
-        res.json(exercises);
-    } catch (e) {
-        console.log('no exercises');
-    }
+    const exercises = await Exercise.find();
+
+    res.json(exercises);
 });
 
 app.get('/workouts', async (req, res) => {
@@ -68,12 +65,5 @@ app.delete('/workout/delete/:id', async (req, res) => {
 
     res.json(result);
 });
-
-app.delete('/exercise/deleteAll', async (req,res) => {
-    Exercise.deleteMany({})
-    .then(() => {
-        res.json({ message: 'Today\'s workout cleared'})
-    })
-})
 
 app.listen(3001, () => console.log("Server started on port 3001"));
