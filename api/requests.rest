@@ -24,32 +24,32 @@ POST http://localhost:3001/workout/new
 Content-Type: application/json
 
 {
-    "date" : "2/3/24",
-    "type" : "Chest",
+    "date" : "5/1/2023",
+    "type" : "Legs",
     "exercises" : [
     {
-        "name" : "Bench",
+        "name" : "Squats",
         "sets" : "2 warmup, 3 working",
         "reps" : "8-10 to failure",
-        "notes" : ""
+        "notes" : "Hip pain during first working set"
     },
     {
-        "name" : "Incline Flue",
-        "sets" : "1 warmup, 3 working",
+        "name" : "Leg Extensions",
+        "sets" : "4working",
         "reps" : "8 to failure",
-        "notes" : "None"
+        "notes" : "-"
     },
     {
-        "name" : "YEEHASAS ASAF",
-        "sets" : "1 warmup, 3 working1 warmup, 3rmup, 3 working1 warmup, 3 working",
+        "name" : "RDLs with Smith Machine",
+        "sets" : "4 working",
         "reps" : "8 to failure",
-        "notes" : "None"
+        "notes" : "Working sets at 225lbs"
     },
     {
-        "name" : "Incline 13451345123451324513451345",
-        "sets" : "1 warmup, 3 working",
-        "reps" : "8 to failure",
-        "notes" : "1345134513452134513462435634573567 8erthsdfgsdrgaergaertyweryw 4567345gasefgsertgertweartadrgertywer tywertgewrtywert"
+        "name" : "Leg Curls",
+        "sets" : "4 working",
+        "reps" : "AMRAP",
+        "notes" : "minimum of 8 per set"
     }
     ]
 }
