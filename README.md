@@ -1,8 +1,12 @@
 # WorkoutLog
 Web application that allows users to log workouts and exercises seemlessly within an internet browser.<br>
 The user is able to add multiple exercises to a workout and save the workout after completion to be viewed at a later time.
-<br><br>This project utilizes the full MERN Stack: MongoDB, Express.js, React.js and Node.js.
 
+## Technologies
+- MongoDB
+- Express.js
+- React.js
+- Node.js.
 
 ## Usage
 |Initial landing screen|Add exercise feature|
